@@ -1,4 +1,4 @@
-# aula-manual
+# vuejs-animal
 
 ## Project setup
 ```
