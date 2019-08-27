@@ -1,4 +1,4 @@
-# vuejs-animal
+# vuejs-animals
 
 ## Project setup
 ```
