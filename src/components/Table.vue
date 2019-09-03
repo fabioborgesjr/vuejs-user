@@ -7,10 +7,10 @@
     </thead>
     <tbody>
       <template v-if="$scopedSlots.default">
-        <slot v-for="animal in animals" :item="animal"> </slot>
+        <slot v-for="user in users" :item="user"> </slot>
       </template>
-      <tr v-else v-for="(animal, index) in animals" :key="index">
-        <td v-for="(value, index) in animal" :key="index">{{ value }}</td>
+      <tr v-else v-for="(user, index) in users" :key="index">
+        <td v-for="(value, index) in user" :key="index">{{ value }}</td>
       </tr>
     </tbody>
   </table>
@@ -20,7 +20,7 @@
 export default {
   props: {
     columns: Array,
-    animals: Array
+    users: Array
   }
 };
 </script>

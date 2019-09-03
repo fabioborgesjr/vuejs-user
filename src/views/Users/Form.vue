@@ -42,7 +42,7 @@
         />
       </div>
       <p v-show="$v.form.type.$invalid" class="help is-danger">
-        Tipo do animal inválido
+        Tipo do Users inválido
       </p>
     </div>
 
@@ -114,7 +114,7 @@ export default {
         form.id = Math.round(Math.random() * 100);
 
         try {
-          await axios.post("http://172.28.8.98:3000/animals", form);
+          await axios.post("http://172.28.8.98:3000/user", form);
         } catch (error) {
           console.log(error);
         }

@@ -1,5 +1,7 @@
 <template>
-  <nav class="navbar is-primary"></nav>
+  <nav class="navbar is-primary">
+    <slot></slot>
+  </nav>
 </template>
 
 <script>
